@@ -1,0 +1,470 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color-violet: #711a50;
+    --color-orange: #ef8242;
+    --color-beige: #ffeac5;
+
+}
+.container__header{
+    height: 60px;
+}
+
+.logo__talent{
+    width: 200px;
+    height: 100px;
+    margin-left: 5rem;
+    margin-top: 10px;
+}
+header{
+    display: flex;
+}
+
+
+#p__booster__en{
+    display: none;
+}
+
+ul li {
+    width: auto;
+    display: inline;
+  }
+.div__buttons{
+     margin-top:-4rem;
+    text-align: right;
+    margin-left: 50rem;
+  
+}
+.buttons{
+    border-radius: 7px;
+    background: var(--color-violet);
+    width: 40px;
+    height: 30px;
+  
+}
+
+.anglais{
+    margin-right: 15px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    border: solid 1px #711a50;
+    
+}
+.francais{
+    color: white;
+    font-size: 12px;
+}
+.div__hero{
+    background-color: var(--color-beige);
+    height: 650px;
+    margin-top: 3rem;
+    display: flex;
+}
+.div__hero__partie1{
+    width: 60%;
+}
+.paragraphe__booster {
+    font-size: 50px;
+    color: var(--color-orange);
+    margin-left: 5rem;
+    margin-top:30;
+    
+    font-weight: bold;
+    font-family: poppins;
+}
+.span1{
+    color: var(--color-violet);
+    font-size: 60px;
+   
+}
+.span2{
+    color: var(--color-violet);
+}
+.paragraphe__desvription{
+    margin-left: 5rem;
+    font-family: poppins;
+    margin-top: 30px;
+}
+.btn__postuler{
+    width: 250px;
+    height: 50px;
+    background-color: var(--color-violet);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold ;
+    font-size: 20px;
+    margin-left: 5rem;
+    margin-top: 30px;
+}
+.div__hero__partie2{
+  
+    width: 40%;
+    
+}
+.div__motifs{
+    width: 40%;
+    height: auto;
+
+}
+.div__motifs.motif{
+  
+
+}
+.programme{
+    height: 200PX;
+    text-align: center;
+    
+}
+.titre__programme{
+  
+    margin-left: 00px;
+    margin-top: 100px;
+    color: var(--color-violet);
+    font-size: 50px;
+}
+.div__corps{
+    height: 130rem;
+    background-color: var(--color-beige);
+}.img__motif{
+    margin-top: 50px;
+    width: 500px;
+    height: 610px;
+    position: relative;
+}
+.inscription__selection__publication{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+
+}
+
+/* hover du 1er bloc  */
+.img__inscription{
+    width: 20px ;
+    height: 20px;
+    margin-left: 40px;
+    margin-right: 3rem;
+}
+.motif__inscription{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: -16rem;
+}
+
+.container__inscription{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 10000px;
+
+}
+
+.container__inscription:focus {
+    outline: 0;
+}
+
+.container__inscription:hover .inscription, .container__inscription:focus .inscription{
+    transform: rotateY(180deg);
+}
+
+.container__inscription:hover .div__hover__inscription {
+    display: block;
+}
+
+.div__incription__image__motif, .div__hover__inscription{
+    position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+.div__incription__image__motif{
+    z-index: 2;
+    overflow: hidden;
+}
+
+.div__hover__inscription{
+    width: 290px;
+    height: 350px;
+    transform: rotateY(180deg);
+    z-index: 10;
+    background-color: white;
+    border:  solid var(--color-orange) 3px;
+    border-radius: 100px 0px 100px 0px;
+    display: none;
+    overflow: hidden;
+
+}
+
+h3{
+    top: 50px;
+}
+
+.img__inscription{
+    width: 200px;
+    height: 290px;
+    margin-top: 10px;
+    padding-right: 20px;
+    margin-left: 30px;
+}
+.img__selection{
+    width: 520px;
+    height: 290px;
+    margin-left: -25rem;
+    position: absolute;
+    left: 20rem; 
+    
+
+}
+.img__publication{
+    width: 200px;
+    height: 290px;
+    margin-top: 10px;
+    margin-left: 1rem;
+    padding-right: 5
+}
+.img__motif__instruction{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 12px;
+}
+.img__motif__selection{
+    height: 250px;
+    width: 200px;
+    margin-left: 9rem;
+    top: 10rem;
+}
+.img__motif__publication{
+    height: 270px;
+    width: 200px;
+    position: absolute;
+   left: 9rem;
+   
+}
+.div__bouton__text{
+    height: 200px;
+    text-align: center;
+    margin-top: -6rem;
+}
+.btn__telecharger{
+    width: 450px;
+    height: 50px;
+    background-color: var(--color-violet);
+    color: var(--color-beige);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+}
+.paragraphe__telecharger{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.div__section__compteur{
+  
+    height: 500px;
+    margin-top: -2rem;
+    text-align: center;
+   
+}
+.div__compteur{
+    width: 800px;
+    height: 300px;
+   background-color: white;
+    margin-left: 230px;
+    border: solid var(--color-orange) 3px;
+    margin-top: 20px;
+    border-radius: 100px 0px 100px 0px;
+}
+.img__motif__compteur{
+    left: 160px;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    margin-top: -4rem;
+}
+.fin__inscription{
+    font-size: 40px;
+    color: #5b5559;
+    margin-top: 50px;
+}
+.div__periode{
+    display: flex;
+    position: absolute;
+    margin-left: 150px;
+    height: 150px;
+    margin-top:-3rem;
+    
+}
+.periode{
+    margin-left: 30px;
+    margin-top: -2rem;
+    text-align: center;
+
+}
+.periode__chiffre{
+    color: var(--color-violet);
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.periode__lettre{
+    margin-top: -4rem;
+    color: #5b5559;
+    font-size: 15px;
+    text-align: center;
+}
+.div__formulaire{
+   
+    margin-top: -7rem;
+    
+    height: 600px;
+}
+.formulaire{
+    
+    margin-top: 50px;
+    height: 300px;
+    width: 800px;
+    margin-left: 250px;
+}
+.remplissez__le__formulaire{
+    text-align: center;
+    color: var(--color-violet);
+}
+input{
+    width: 800px ;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 3px #aaa;
+}
+.label{
+    width: 800px ;
+    text-align: left;
+    color: var(--color-violet);
+    position: absolute;
+    margin-top: 20px;
+    font-weight:bold;
+    
+}
+.message{
+    margin-top: 70px;
+    height: 150px;
+    
+}
+::placeholder {
+   color: var(--color-violet);
+}
+.pièce__jointe{
+    height: 250px;
+    margin-top: -3rem;
+}
+.paragraphe__piece__jointe{
+    margin-left: 250px;
+    color: var(--color-violet);
+    font-weight: bold;
+}
+.bouttons__selectionner__soumettre{
+    text-align: center;
+   
+    width: 800px;
+    margin-left: 250px;
+}
+.btn{
+    background-color: var(--color-violet);
+    width: 350px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.btn__soumettre{
+    width: 800px;
+    margin-top: 30px;
+}
+.before__footer{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    margin-top: 30px;
+    justify-content: space-between;
+    display: flex;
+   
+}
+.img__footer{
+    height: 100px;
+    width: 150px;
+   margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+.img__footer1{
+    width: 200px;
+}
+.img__footer2{
+    width: 200px;
+}
+.img__footer3{
+    width: 200px;
+}
+.img__footer4{
+    width: 200px;
+}
+.img__footer5{
+    width: 200px;
+    height: 70px;
+    margin-top: 35px;
+}
+.before__footer__texte{
+    height: 300px;
+   
+    text-align: center;
+  
+   
+}
+.texte__footer{
+    position: relative;
+    top: 40px;
+
+}
+.div__logo{
+    display: flex;
+   
+    width: 80px;
+    height: 30px;
+    margin-left: 58rem;
+    margin-top: 140px;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;  
+}
+
+.img__motif__footer{
+    width: 100%;
+    height: 450px;
+    margin-top: -7rem;
+}
+
+.section__one {
+    background-color: transparent;
+    height: auto;
+    width: auto;
+}
