@@ -1,0 +1,231 @@
+
+  :root {
+    --color-violet: #711a50;
+    --color-orange: #ef8242;
+    --color-beige: #ffeac5;
+
+}
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;  
+    -moz-backface-visibility: hidden;
+  }
+  
+  .flip-card:focus {
+      outline: 0;
+  }
+  
+  .flip-card:hover .flip-card-inner,
+  .flip-card:focus .flip-card-inner{
+    transform: rotateY(180deg);
+  }
+
+  .flip-card:hover .flip-card-inner .flip-card-back {
+    border-radius: 0px 6rem 0px 6rem;
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    background-color: #fff;
+    border: 3px solid var(--color-orange);
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+  }
+  
+  .flip-card-front {
+    border-radius: 0px 6rem 0px 6rem;
+    background: #fff;
+    color: black;
+    z-index: 2;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flip-card-back {
+    background: #fff;
+    color: black;
+    transform: rotateY(180deg);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6rem 0 6rem 0;
+    transition: all .2s ease-in-out;
+
+  }
+  h3 {
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #000;
+  }
+
+
+  /* section two */
+
+
+  
+.selection {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.selection__inner {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;  
+  -moz-backface-visibility: hidden;
+}
+
+.selection:focus {
+    outline: 0;
+}
+
+.selection:hover .selection__inner,
+.selection:focus .selection__inner{
+  transform: rotateY(180deg);
+}
+
+.selection:hover .selection__inner .selection__back {
+  border-radius: 0px 6rem 0px 6rem;
+}
+
+.selection__front,
+.selection__back {
+  position: absolute;
+  background-color: #fff;
+  border: 3px solid var(--color-orange);
+  height: 100%;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.selection__front {
+  border-radius: 0px 0px 100px 100px;
+  background: #fff;
+  color: black;
+  z-index: 2;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.selection__back {
+  background: #fff;
+  color: black;
+  transform: rotateY(180deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 100px 100px;
+  transition: all .2s ease-in-out;
+  
+}
+h3 {
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+
+/* third section */
+
+
+  
+.publication {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.publication__inner {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;  
+  -moz-backface-visibility: hidden;
+}
+
+.publication:focus {
+    outline: 0;
+}
+
+.publication:hover .publication__inner,
+.publication:focus .publication__inner{
+  transform: rotateY(180deg);
+}
+
+.publication:hover .publication__inner .publication__back {
+  border-radius: 0px 6rem 0px 6rem;
+}
+
+.publication__front,
+.publication__back {
+  position: absolute;
+  background-color: #fff;
+  border: 3px solid var(--color-orange);
+  height: 100%;
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+.publication__front {
+  border-radius: 0px 6rem 0px 6rem;
+  background: #fff;
+  color: black;
+  z-index: 2;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.publication__back {
+  background: #fff;
+  color: black;
+  transform: rotateY(180deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6rem 0 6rem 0;
+  transition: all .2s ease-in-out;
+
+}
+h3 {
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+  
+  
+  
+  
